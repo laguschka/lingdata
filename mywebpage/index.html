@@ -1,32 +1,21 @@
 <!doctype html>
-
 <!-- так в HTML обозначаются комментарии. Выше вы видите объявление типа документа (DOCTYPE), так браузер понимает, что код ниже нужно интерпретировать как html -->
-
 <html>
-
 <!-- зона заголовка html, тег <title> - строка, которую браузер отображает на вкладках над страницами, <meta> и <link> сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) -->
-
 	<head>
 		<title><b>Личная страница Вадима Рыбинского</b></title>
 	 	<!-- Required meta tags -->
 	 	<meta charset="utf-8">
 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<meta name="description" content="Личная страница и контакты">
-
 		<!-- Bootstrap Core CSS -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <!-- Эта страница сделана с помощью bootstrap - популярной библиотеки для создания и настройки сайтов. Ниже вы увидите, что многие теги содержат атрибуты class - bootstrap содержит шаблоны, как такие элементы красиво оформить -->
-
 	</head>
-	
 <!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
 	<body>
-
 <!-- меню (navigation bar) -->
-
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-
 <!-- div - это контейнеры - коробочки с текстом и/или графикой, которые можно вкладывать друг в друга. Пристально смотреть на теги в этой части кода не нужно -->
 			<div class="container"> 
 				<div class="navbar-header"> 
@@ -41,9 +30,7 @@
 				</nav> 
 			</div>
 		</nav>
-
 <!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
-
 		<header style="background-color:#9fe3de; padding-top:75px; "> 
 			<div class="container"> 
 				<div class="row">
@@ -61,20 +48,16 @@
 				<p class="thumb">		 
 <img src="https://raw.githubusercontent.com/laguschka/lingdata/main/mywebpage/myphoto.jpg" style="height:300px; margin:20px 20px 20px 20px;">
 <!-- альтернативное фото <img src="https://raw.githubusercontent.com/laguschka/lingdata/main/mywebpage/myphoto2.jpg" style="height:200px; margin:20px 20px 20px 20px;" >	-->
-				</p>
-										
+				</p>										
 					</div>
 				</div>
 			</div>
 		</header>
-
 <!-- часть страницы, которая под шапкой -->
 		<section id="portfolio">
 			<div class="container">
-
 <!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
 				<div class="col-md-3">
-
 <!-- <article> не влияет на оформление, но помогает структурировать контент на осмысленые разделы -->
 					<article>
 						<h3>Место учебы</h3>
@@ -90,7 +73,6 @@
 						<p>№179!!!! Изобретательский класс (блин класс) </p>
 					</article>
 				</div>
-
 				<div class="col-md-6">
 					<article>
 						<ul>
@@ -104,7 +86,7 @@
 						</ul>
 					</article>
 					<article>
-						<h3>__Давайте расскажу анекдот</h3>
+						<h3>Давайте расскажу анекдот</h3>
 						<ul>
 						<p> 
 						Мужики говорят, что у них нет депрессии,<br>
@@ -132,14 +114,12 @@
 <h3>
 	СПАСИБО!
 </h3>
-
 						<p/>
 					</article>
 					
 				</div>
 			</div>
 		</section>
-
 <!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
 		<footer class="bs-docs-footer"> 
 			<div class="container"> 
