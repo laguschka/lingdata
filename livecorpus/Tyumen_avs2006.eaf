@@ -4,8 +4,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="file:///Users/rybinskiyvadim/Downloads/Tumen_avs2006.mov"
-            MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../Downloads/Tumen_avs2006.mov"/>
+            MEDIA_URL="file:///Users/rybinskiyvadim/Downloads/Tyumen_avs2006.mov"
+            MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../Downloads/Tyumen_avs2006.mov"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:1366ef6a-d9f1-460b-95ef-a01f5b565c38</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">15</PROPERTY>
     </HEADER>
